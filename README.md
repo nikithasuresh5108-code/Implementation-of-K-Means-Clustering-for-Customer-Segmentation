@@ -60,7 +60,6 @@ plt.scatter(X[y_kmeans == 4, 0], X[y_kmeans == 4, 1], s=50)
 plt.scatter(kmeans.cluster_centers_[:, 0], 
             kmeans.cluster_centers_[:, 1], 
             s=200, marker='X')
-
 ```
 
 ## Output:
